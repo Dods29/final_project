@@ -3,7 +3,7 @@ var iframe = document.getElementById("iframe");
 
 textarea.addEventListener ("input", ()=>{
     iframe.contentDocument.body.innerHTML = textarea.value;
-})
+});
 
 function btn(){
     var textarea = document.getElementById("textarea").value;
